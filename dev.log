@@ -1,0 +1,33 @@
+
+> uyir@1.0.0 dev
+> concurrently -n "VITE,API" -c "green.bold,blue.bold" "vite" "tsx watch server/index.ts"
+
+[VITE] Port 5173 is in use, trying another one...
+[VITE] Port 5174 is in use, trying another one...
+[VITE] Port 5175 is in use, trying another one...
+[VITE] Port 5176 is in use, trying another one...
+[VITE] 
+[VITE]   VITE v6.4.3  ready in 156 ms
+[VITE] 
+[VITE]   ➜  Local:   http://localhost:5177/
+[VITE]   ➜  Network: http://10.255.255.254:5177/
+[VITE]   ➜  Network: http://172.21.21.128:5177/
+[API] /home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:218
+[API]           throw new PathError(`Missing parameter name at index ${index}`, str);
+[API]                 ^
+[API] 
+[API] PathError [TypeError]: Missing parameter name at index 1: *; visit https://git.new/pathToRegexpError for info
+[API]     at consumeUntil (/home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:218:17)
+[API]     at parse (/home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:262:24)
+[API]     at process (/home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:466:52)
+[API]     at pathToRegexp (/home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:478:3)
+[API]     at Object.match (/home/shanmugavel/projects/uyir/node_modules/path-to-regexp/src/index.ts:416:28)
+[API]     at matcher (/home/shanmugavel/projects/uyir/node_modules/router/lib/layer.js:86:23)
+[API]     at new Layer (/home/shanmugavel/projects/uyir/node_modules/router/lib/layer.js:93:62)
+[API]     at router.route (/home/shanmugavel/projects/uyir/node_modules/router/index.js:428:17)
+[API]     at app.route (/home/shanmugavel/projects/uyir/node_modules/express/lib/application.js:257:22)
+[API]     at app.<computed> [as get] (/home/shanmugavel/projects/uyir/node_modules/express/lib/application.js:478:22) {
+[API]   origin[API] tsx watch server/index.ts exited with code SIGTERM
+[VITE] vite exited with code SIGTERM
+code SIGTERM
+[VITE] vite exited with code SIGTERM
